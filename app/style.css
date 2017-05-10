@@ -37,6 +37,10 @@ a {
 img {
     max-width: 100%;
 }
+b {
+    font-weight: 600;
+}
+
 .nav {
     display: block;
     background-color: rgba(0, 0, 0, 0.8);
@@ -123,15 +127,11 @@ img {
 
 .main {
     display: block;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 0;
 }
 .main h2 {
     color: #02a489;
 }
-.main b {
-    font-weight: 600;
-}
-
 .main__section {
     max-width: 650px;
     margin: 0 auto;
@@ -198,6 +198,24 @@ img {
 .list__item__title {
     font-weight: 600;
     margin-bottom: -0.6em;
+}
+
+.share-btn {
+    display: inline-block;
+    width: 200px;
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.share-btn.share-btn--fb {
+    background-color: #3b5a9c;
+}
+.share-btn.share-btn--twitter {
+    background-color: #5da7eb;
 }
 
 .footer {
